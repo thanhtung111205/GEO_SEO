@@ -17,4 +17,4 @@ Allow: /
 User-agent: bingbot
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://thanhtung111205.github.io/GEO_SEO/sitemap.xml
