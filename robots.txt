@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Cho phep cac AI crawler pho bien truy cap noi dung
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
