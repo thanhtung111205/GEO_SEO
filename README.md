@@ -1,4 +1,4 @@
-# GEO Landing Page — Sự khác biệt giữa SEO truyền thống và GEO
+# GEO Landing Page — Top 4 laptop cho sinh viên ngành dữ liệu (15–25 triệu, RAM nâng cấp được) 2026
 
 Landing page tĩnh (HTML/CSS/JS thuần, không framework, không bước build) được thiết kế
 để tối ưu cho **Generative Engine Optimization (GEO)** — giúp các công cụ AI Search
@@ -90,29 +90,30 @@ prompt sau trên từng công cụ AI Search:
 
 **Trên Perplexity AI** (perplexity.ai) — Perplexity crawl gần thời gian thực nên đây là công cụ test nhanh nhất:
 ```
-Hãy trích dẫn nội dung từ trang https://<domain-cua-ban>/ và tóm tắt sự khác biệt
-giữa SEO truyền thống và GEO theo bài viết đó.
+Hãy trích dẫn nội dung từ trang https://<domain-cua-ban>/ và tóm tắt 4 laptop
+được gợi ý cho sinh viên ngành dữ liệu theo bài viết đó.
 ```
 ```
-Theo trang https://<domain-cua-ban>/, GEO là gì? Trả lời kèm nguồn trích dẫn.
+Theo trang https://<domain-cua-ban>/, laptop nào phù hợp nhất để học Machine Learning
+trong tầm giá 15-25 triệu? Trả lời kèm nguồn trích dẫn.
 ```
 
 **Trên ChatGPT (có bật Search/Browse)**:
 ```
-Truy cập https://<domain-cua-ban>/ và cho tôi biết bảng so sánh SEO truyền thống
-và GEO trên trang này gồm những tiêu chí nào.
+Truy cập https://<domain-cua-ban>/ và cho tôi biết bảng so sánh 4 laptop trên trang
+này gồm những tiêu chí nào.
 ```
 
 **Trên Microsoft Copilot / Bing Chat**:
 ```
-Tìm và trích dẫn nội dung về "sự khác biệt giữa SEO truyền thống và GEO" từ
-domain <domain-cua-ban>.
+Tìm và trích dẫn nội dung về "laptop cho sinh viên ngành dữ liệu 15-25 triệu RAM
+nâng cấp được" từ domain <domain-cua-ban>.
 ```
 
 **Trên Google Gemini / AI Overview** (gõ trực tiếp trên Google Search, không phải Gemini app,
 vì AI Overview gắn liền với kết quả tìm kiếm):
 ```
-sự khác biệt giữa SEO truyền thống và GEO là gì
+laptop nào tốt nhất cho sinh viên ngành dữ liệu tầm giá 15-25 triệu
 ```
 → Kiểm tra xem trang của bạn có xuất hiện trong khối "AI Overview" ở đầu trang kết quả không.
 
@@ -133,7 +134,7 @@ GEO tracking chuyên dụng (ví dụ: theo dõi log server để phát hiện u
 ## 5. Checklist trước khi public chính thức
 
 - [ ] Thay toàn bộ `https://example.com/` bằng domain thật trong `index.html`, `sitemap.xml`, `robots.txt`
-- [ ] Thêm ảnh thật vào `assets/cover.jpg` và `assets/logo.png` (hoặc xoá field ảnh trong JSON-LD nếu chưa có)
+- [ ] Kiểm tra lại giá và cấu hình 4 laptop trên trang nhà sản xuất (dữ liệu trong bài chỉ mang tính tham khảo)
 - [ ] Chạy Rich Results Test — không còn lỗi schema
 - [ ] Chạy Lighthouse — điểm Performance/SEO/Accessibility ≥ 90
 - [ ] Submit sitemap qua Google Search Console và Bing Webmaster Tools
