@@ -1,5 +1,7 @@
 # GEO Landing Page — Top 5 laptop lập trình cho sinh viên CNTT (15–30 triệu) 2026
 
+**Xem trang live: https://thanhtung111205.github.io/GEO_SEO/**
+
 Landing page tĩnh (HTML/CSS/JS thuần, không framework, không bước build) được thiết kế
 để tối ưu cho **Generative Engine Optimization (GEO)** — giúp các công cụ AI Search
 (Perplexity, ChatGPT Search, Google Gemini/AI Overview, Bing Copilot) dễ đọc, trích xuất
