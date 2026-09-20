@@ -1,28 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var faqItems = document.querySelectorAll(".faq-item");
-  faqItems.forEach(function (item) {
-    item.addEventListener("toggle", function () {
-      if (!item.open) return;
-      faqItems.forEach(function (other) {
-        if (other !== item) other.open = false;
-      });
-    });
-  });
-
-  var links = document.querySelectorAll(".toc a[href^='#']");
-  if (!("IntersectionObserver" in window) || !links.length) return;
+  var tabs = document.querySelectorAll(".tabs a[href^='#']");
+  if (!("IntersectionObserver" in window) || !tabs.length) return;
 
   var byId = {};
-  links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+  tabs.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
 
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
       if (!entry.isIntersecting) return;
-      links.forEach(function (a) { a.classList.remove("active"); });
-      var link = byId[entry.target.id];
-      if (link) link.classList.add("active");
+      tabs.forEach(function (a) { a.classList.remove("active"); });
+      var tab = byId[entry.target.id];
+      if (!tab) return;
+      tab.classList.add("active");
+      tab.scrollIntoView({ block: "nearest", inline: "center" });
     });
-  }, { rootMargin: "-80px 0px -65% 0px" });
+  }, { rootMargin: "-100px 0px -60% 0px" });
 
   Object.keys(byId).forEach(function (id) {
     var el = document.getElementById(id);

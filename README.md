@@ -1,4 +1,4 @@
-# GEO Landing Page — Top 4 laptop cho sinh viên ngành dữ liệu (15–25 triệu, RAM nâng cấp được) 2026
+# GEO Landing Page — Top 4 laptop lập trình cho sinh viên CNTT (15–30 triệu) 2026
 
 Landing page tĩnh (HTML/CSS/JS thuần, không framework, không bước build) được thiết kế
 để tối ưu cho **Generative Engine Optimization (GEO)** — giúp các công cụ AI Search
@@ -91,11 +91,11 @@ prompt sau trên từng công cụ AI Search:
 **Trên Perplexity AI** (perplexity.ai) — Perplexity crawl gần thời gian thực nên đây là công cụ test nhanh nhất:
 ```
 Hãy trích dẫn nội dung từ trang https://<domain-cua-ban>/ và tóm tắt 4 laptop
-được gợi ý cho sinh viên ngành dữ liệu theo bài viết đó.
+được gợi ý cho sinh viên CNTT theo bài viết đó.
 ```
 ```
-Theo trang https://<domain-cua-ban>/, laptop nào phù hợp nhất để học Machine Learning
-trong tầm giá 15-25 triệu? Trả lời kèm nguồn trích dẫn.
+Theo trang https://<domain-cua-ban>/, laptop nào phù hợp nhất để chạy Docker và học
+Machine Learning trong tầm giá 15-30 triệu? Trả lời kèm nguồn trích dẫn.
 ```
 
 **Trên ChatGPT (có bật Search/Browse)**:
@@ -106,14 +106,14 @@ này gồm những tiêu chí nào.
 
 **Trên Microsoft Copilot / Bing Chat**:
 ```
-Tìm và trích dẫn nội dung về "laptop cho sinh viên ngành dữ liệu 15-25 triệu RAM
-nâng cấp được" từ domain <domain-cua-ban>.
+Tìm và trích dẫn nội dung về "laptop lập trình cho sinh viên CNTT 15-30 triệu"
+từ domain <domain-cua-ban>.
 ```
 
 **Trên Google Gemini / AI Overview** (gõ trực tiếp trên Google Search, không phải Gemini app,
 vì AI Overview gắn liền với kết quả tìm kiếm):
 ```
-laptop nào tốt nhất cho sinh viên ngành dữ liệu tầm giá 15-25 triệu
+laptop nào tốt nhất cho sinh viên CNTT tầm giá 15-30 triệu
 ```
 → Kiểm tra xem trang của bạn có xuất hiện trong khối "AI Overview" ở đầu trang kết quả không.
 
