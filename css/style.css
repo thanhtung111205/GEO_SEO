@@ -4,12 +4,12 @@
   --blue-900: #06325f;
   --blue-700: #0a4f94;
   --blue-600: #0b63b5;
-  --sky: #1b8fe0;
-  --teal: #0b8a80;
+  --sky: #0a6fc0;
+  --teal: #087a71;
   --orange: #f37021;
-  --orange-dark: #cf5a0c;
+  --orange-dark: #b34a06;
   --green: #5fae3a;
-  --green-dark: #3d8a1d;
+  --green-dark: #2f7a12;
   --bg: #f2f6fb;
   --surface: #ffffff;
   --text: #0f2338;
@@ -59,7 +59,7 @@ a { color: var(--blue-600); }
 
 .btn { display: inline-block; padding: 9px 20px; border-radius: 999px; font-weight: 700; font-size: 0.92rem; text-decoration: none; }
 .btn-orange { background: var(--orange-dark); color: #fff; }
-.btn-orange:hover { background: #b84e08; }
+.btn-orange:hover { background: #963d04; }
 
 /* Tab bar */
 .tabbar { position: sticky; top: 0; z-index: 40; background: var(--blue-900); box-shadow: 0 2px 8px rgba(6, 50, 95, 0.25); }
