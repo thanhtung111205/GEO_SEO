@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Top 5 Laptop Lập Trình Cho Sinh Viên CNTT 2026">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06325f"/>
+      <stop offset="0.65" stop-color="#0b63b5"/>
+      <stop offset="1" stop-color="#1b8fe0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="80" r="200" fill="#f37021" fill-opacity="0.18"/>
+  <rect x="70" y="80" width="330" height="44" rx="8" fill="#cf5a0c"/>
+  <text x="92" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="1">ĐÁNH GIÁ &amp; SO SÁNH 2026</text>
+  <text x="70" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Top 5 Laptop Lập Trình</text>
+  <text x="70" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Cho Sinh Viên CNTT</text>
+  <text x="70" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#cfe3f7">Tầm giá 15–30 triệu</text>
+  <text x="70" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#ffffff">MacBook Air M2  ·  HP Pavilion 15  ·  MSI Thin 15</text>
+  <text x="70" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#ffffff">LG gram 14  ·  Lenovo ThinkPad E14</text>
+  <rect y="600" width="400" height="30" fill="#0b63b5"/>
+  <rect x="400" y="600" width="400" height="30" fill="#f37021"/>
+  <rect x="800" y="600" width="400" height="30" fill="#5fae3a"/>
+</svg>
